@@ -35,7 +35,7 @@ public class Consulta {
     @Enumerated(EnumType.STRING)
     private MotivoCancelamentoConsulta motivoCancelamento;
 
-    public void cancelar(MotivoCancelamentoConsulta motivoCancelamentoConsulta) {
+   public void cancelar(MotivoCancelamentoConsulta motivoCancelamentoConsulta) {
         this.motivoCancelamento = motivoCancelamentoConsulta;
     }
 
